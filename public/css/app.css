@@ -1,0 +1,54 @@
+.open-backlinks:hover, .show-related:hover, .add-keyword{
+    cursor: pointer;
+}
+
+.show-related .open { display: block; }
+.show-related .close { display: none; }
+.show-related .loading { display: none; }
+
+.show-related.expanded .open { display: none; }
+.show-related.expanded .close { display: block; }
+
+.show-related.loading .open { display: none !important; }
+.show-related.loading .close { display: none !important; }
+.show-related.loading .loading { display: block !important; }
+
+.related-row { background: #ecf0f1; }
+.related-row td:first-child { padding-left: 10px; }
+
+
+.blue-text{
+    color: #14486b;
+    font-size: 20px;
+}
+
+.multi-table, .multi-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.multi-table .left, .multi-table .right{
+    width: 49%;
+}
+
+.multi-content .left{
+    width: 20%;
+}
+
+.multi-content .right{
+    width: 80%;
+}
+
+@media screen and (max-width: 1620px){
+    .multi-table{
+        flex-direction: column;
+    }
+    .multi-table .left, .multi-table .right{
+        width: 100%;
+    }
+
+    #osr_PlannerWordCountTable{
+        margin-top: 20px;
+    }
+}
