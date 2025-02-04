@@ -14,7 +14,7 @@ class SemrushApiV3Service
     /**
      * Your Serpstat API Token
      */
-    const API_TOKEN = '24bb669dc4c680d3deb32000ec445127'; // Replace with your actual token
+    const API_TOKEN = '7b6dad16494739b7553b211a18d37037'; // Replace with your actual token
 
     /**
      * Forms request and runs it, returns response interface
